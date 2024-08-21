@@ -91,5 +91,47 @@ body > * {
 
 .contentContainer {
     grid-area: contentContainer;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+
+    padding: 40px 30px 80px 20px;
+    border: 2px solid red;
 }
 
+.contentContainer h2 {
+    margin: 0 0 15px 0;
+}
+
+.projectList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 230px;
+    gap: 30px;
+}
+
+.projectFormat {
+    padding: 30px;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.projectFormat h2,
+.projectFormat p {
+    flex: 0 0 auto;
+
+    margin: 3px 0;
+}
+
+.projectFormat .optionIcons {
+    flex: 1 1 auto;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+}
