@@ -75,8 +75,21 @@ body > * {
 
 .sideBar {
     grid-area: sideBar;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sideBar ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+
+    list-style-type: none;
+    font-size: 30px;
 }
 
 .contentContainer {
     grid-area: contentContainer;
 }
+
