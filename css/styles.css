@@ -18,10 +18,15 @@ body > * {
 .topBar {
     grid-area: topBar;
     padding: 0 5%;
+
+    display: flex;
+    flex-flow: column;
 }
 
 .navBar,
 .actionBar {
+    flex: 1;
+
     border: 2px solid blue;
 
     display: flex;
@@ -33,13 +38,21 @@ body > * {
     flex: 1 1 auto;
 
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .navBar form #searchBar {
-    width: 500px;
+    width: 675px;
     /* if user has a really long name such that .accountNav icons could overlap with searchbar */
     max-width: 100%;
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 999vh;
+
+    font-size: 15px;
+    background-color: #eee;
 }
 
 .accountNav {
