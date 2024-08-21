@@ -106,8 +106,8 @@ body > * {
 
 .projectList {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 230px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 250px;
     gap: 30px;
 }
 
