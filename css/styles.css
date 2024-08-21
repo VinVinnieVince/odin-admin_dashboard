@@ -80,7 +80,7 @@ body > * {
     flex-flow: column nowrap;
 }
 
-.sideBar ul {
+.sideBar .dashList {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
