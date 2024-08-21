@@ -80,7 +80,7 @@ body > * {
     flex-flow: column nowrap;
 }
 
-.sideBar ul {
+.sideBar .dashList {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
@@ -91,5 +91,7 @@ body > * {
 
 .contentContainer {
     grid-area: contentContainer;
-}
 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
