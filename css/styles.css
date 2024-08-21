@@ -5,6 +5,10 @@ body {
     grid-template-areas: 
         'sideBar topBar'
         'sideBar contentContainer';
+
+    height: 100vh;
+    min-height: 70vh;
+    margin: 0;
 }
 
 body > * {
