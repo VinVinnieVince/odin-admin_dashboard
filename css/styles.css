@@ -80,7 +80,7 @@ body > * {
     flex-flow: column nowrap;
 }
 
-.sideBar .actionButtons {
+.sideBar ul {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
@@ -92,3 +92,4 @@ body > * {
 .contentContainer {
     grid-area: contentContainer;
 }
+
