@@ -17,6 +17,11 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+svg {
+    fill: currentColor;
+    stroke: currentColor;
+}
+
 .topBar {
     grid-area: topBar;
     padding: 0 5%;
