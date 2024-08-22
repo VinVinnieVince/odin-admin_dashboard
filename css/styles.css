@@ -116,6 +116,19 @@ body {
     font-weight: 600;
     color: #ffe680;
     text-shadow: 5px 5px #4d3d00;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sideBar h1 svg {
+    width: 60px;
+    height: 60px;
+    rotate: 90deg;
+
+    margin-left: 30px;
+    margin-bottom: -30px;
 }
 
 .sideBar .dashList {
