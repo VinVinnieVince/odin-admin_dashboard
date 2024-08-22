@@ -20,6 +20,10 @@ body {
 svg {
     fill: currentColor;
     stroke: currentColor;
+
+    width: 30px;
+    height: 30px;
+    stroke-width: 0;
 }
 
 .topBar {
@@ -87,6 +91,11 @@ svg {
     gap: 20px;
 }
 
+.actionBar .intro svg {
+    width: 70px;
+    height: 70px;
+}
+
 .actionBar .actionButtons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -151,11 +160,6 @@ svg {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.dashList li svg {
-    height: 30px;
-    width: 30px;
 }
 
 .contentContainer {
