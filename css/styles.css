@@ -9,10 +9,9 @@ body {
     height: 100vh;
     min-height: 70vh;
     margin: 0;
-}
 
-body > * {
-    border: 2px solid black;
+    background: linear-gradient(0deg, #020024 0%, #000033 75%, #a3297a 100%);
+    color: #ffdab3;
 }
 
 .topBar {
@@ -21,13 +20,13 @@ body > * {
 
     display: flex;
     flex-flow: column;
+
+    background-color: transparent;
 }
 
 .navBar,
 .actionBar {
     flex: 1;
-
-    border: 2px solid blue;
 
     display: flex;
     justify-content: space-between;
@@ -86,8 +85,9 @@ body > * {
     list-style-type: none;
 
     padding: 10px 40px;
-    border: 2px solid blue;
     border-radius: 999vh;
+
+    background-color: #ff0066;
 }
 
 .sideBar {
@@ -95,6 +95,8 @@ body > * {
 
     display: flex;
     flex-flow: column nowrap;
+
+    background-color: #00001a;
 }
 
 .sideBar .dashList {
@@ -114,11 +116,16 @@ body > * {
     gap: 30px;
 
     padding: 40px 35px 0 25px;
-    border: 2px solid red;
 }
 
 .contentContainer h2 {
     margin: 0 0 15px 0;
+}
+
+.projectFormat,
+.announceList,
+.trendingContainer {
+    background-color: #1a0033;
 }
 
 .projectList {
@@ -130,7 +137,6 @@ body > * {
 
 .projectFormat {
     padding: 30px;
-    border: 2px solid darkorange;
     border-radius: 10px;
 
     display: flex;
@@ -167,7 +173,6 @@ body > * {
 
 .announceList {
     padding: 10px 20px;
-    border: 2px solid lime;
     border-radius: 10px;
 
     max-height: 80%;
@@ -189,7 +194,6 @@ body > * {
 }
 
 .trendingContainer {
-    border: 2px solid darkcyan;
     border-radius: 10px;
 
     max-height: 80%;
