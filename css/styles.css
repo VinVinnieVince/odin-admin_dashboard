@@ -17,6 +17,10 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+svg {
+    color: #ffdab3;
+}
+
 .topBar {
     grid-area: topBar;
     padding: 0 5%;
@@ -110,7 +114,23 @@ body {
     background-color: #00001a;
 }
 
+.sideBarTitle {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    padding: 0 50px;
+    margin: -10px 0;
+}
+
+.sideBar svg {
+    scale: 0.9;
+
+    margin-left: -10px;
+}
+
 .sideBar h1 {
+    flex: 0;
     font-family: 'Yellowtail', Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: 600;
