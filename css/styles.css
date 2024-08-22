@@ -52,6 +52,8 @@ body {
     margin: 0;
 
     background: linear-gradient(0deg, #020024 0%, #000033 75%, #a3297a 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #ffdab3;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
