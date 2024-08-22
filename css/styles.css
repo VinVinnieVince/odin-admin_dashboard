@@ -151,6 +151,11 @@ body {
     flex-flow: column;
 }
 
+.projectFormat:hover {
+    box-shadow: 10px 10px 1px #ff4d4d;
+    transition: all 0.1s linear;
+}
+
 .projectFormat h2 {
     flex: 0 0 auto;
 
